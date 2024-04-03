@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(https://alameda.edu/wp-content/uploads/2021/07/GettyImages-154932300.jpg);
+  }
+  
+  .calculator {
+    width: 200px;
+    text-align: center;
+    border: 1px solid #021a77;
+    background-color: #021a77;
+    border-radius: 15px;
+    padding: 30px;
+  }
+  
+  #display {
+    width: 95%;
+    margin-bottom: 15px;
+    background-color: #c00000;
+    padding: 5px;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #008a09;
+    background-color: #008a09;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #c00000;
+  }
+
+  #display:hover {
+    background-color: #008a09;
+  }
+

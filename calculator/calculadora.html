@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Calculadora POO</title>
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" readonly>
+    <div class="keys">
+      <button onclick="calculator.input('1')">1</button>
+      <button onclick="calculator.input('2')">2</button>
+      <button onclick="calculator.input('3')">3</button>
+      <button onclick="calculator.input('+')">+</button>
+      <button onclick="calculator.input('4')">4</button>
+      <button onclick="calculator.input('5')">5</button>
+      <button onclick="calculator.input('6')">6</button>
+      <button onclick="calculator.input('-')">-</button>
+      <button onclick="calculator.input('7')">7</button>
+      <button onclick="calculator.input('8')">8</button>
+      <button onclick="calculator.input('9')">9</button>
+      <button onclick="calculator.input('*')">*</button>
+      <button onclick="calculator.input('0')">0</button>
+      <button onclick="calculator.calculate()">=</button>
+      <button onclick="calculator.input('/')">/</button>
+      <button onclick="calculator.clear()">C</button>
+    </div>
+  </div>
+  <script src="assets/js/calcular.js"></script>
+</body>
+</html>
