@@ -3,7 +3,7 @@ class FirebaseGameUser {
 
     constructor(idTbody) {
       this.objTbody = document.getElementById(idTbody);
-      this.URL = "https://api-restt-default-rtdb.firebaseio.com/api/users";
+      this.URL = "https://api-game-991ab-default-rtdb.firebaseio.com/api/users";
     }
   
     async getDataUsers() {
