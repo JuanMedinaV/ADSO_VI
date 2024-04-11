@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Permanent_Marker;
+    src: url('../fonts/Permanent_Marker/PermanentMarker-Regular.ttf');
+    text-decoration-color: #1a2cd1;
+  }
+  
+  body {
+    background-image: url(https://e0.pxfuel.com/wallpapers/784/689/desktop-wallpaper-marvel-cinematic-universe-marvel-mcu.jpg) !important;
+    background-size: cover;
+    width: 100%;
+    font-family: Permanent_Marker;
+    font-size: large;
+    text-transform: uppercase !important;
+  
+  }
+  .titleGames{
+    font-size: 6em;
+  }
+  
+  input {
+    text-transform: uppercase !important;
+    background:#b40000 !important;
+  }
+  select {
+    text-transform: uppercase !important;
+    background:#b40000 !important;
+    cursor: pointer;
+  }
+  
+  #btn_start {
+    background: #700505;
+    border: solid 2px #000000;
+    font-size: 2em;
+  }
+  
+  #btn_start:hover {
+    background: #1a2cd1;
+    background: linear-gradient(0deg, #000000 0%, #ffffff 100%);
+    border-radius:10px;
+    font-size: 1.9em;
+  }
